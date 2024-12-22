@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1><center>Welcome to My Portfolio</center></h1>
+        <p>My name is Muneeswari, and I am a Computer Science student with a passion for technology and innovation. My journey began with a fascination for computers at a young age, where I spent countless hours tinkering with software and exploring the world of programming.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>My name is Muneeswari, and I am a Computer Science student with a passion for programming and development. I am currently pursuing my degree in Computer Science, where I have developed a strong foundation in various programming languages and software development. My coursework and projects have provided me with the skills and knowledge needed to excel in this field. I have a keen interest in music and literature. Listening to songs and exploring different genres of books are some of my favorite pastimes.</p>
+    </section>
+
+   <!-- Skills Section -->
+   <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+        <center><li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Graphic Designing</li>
+        <li>Typewriting</li>
+        <li>Python Programming</li></center>
+    </ul>
+</section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <img src="C:\Users\Admin\Pictures\gith.image.png" alt="Project 1 Image">
+            <div class="project-content">
+                <h3><center>Github</center></h3>
+                <p>This project will utilize GitHub for version control, collaboration, and project management to ensure efficient development and seamless teamwork.Create a new repository on GitHub to host the project's code and documentation.</p>.</p>
+            </div>
+        </div>
+        <div class="project">
+            <img src="C:\Users\Admin\Pictures\can.image.jfif" alt="Project 2 Image">
+            <div class="project-content">
+                <h3><center>Canva</center></h3>
+                <p>Creating a Canva design project can be an exciting way to showcase your creativity and skills.</p>
+            </div>
+        </div>
+    </section>
+
+    
+            <section id="contact">
+                <h2>Contact Me</h2>
+                <p>Email : Muneeswari@63gmail.com</p>
+                <p>Contact No: 70920 19243</p>
+            </section>
+        
+            <footer>
+                <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+            </footer>
+        </body>
+        </html>
+        <style>
+            body {
+                background-color: rgb(253, 250, 251);
+                color: #333;
+                margin: 0;
+                font-family: Arial, sans-serif;
+                scroll-behavior: smooth; 
+                padding-top: 70px;
+                height: 100vh;
+            width: 100vw; 
+            }
+            p
+            {
+                font-family: Cambria math;
+                font-size: 10x;
+            }
+    
+            header {
+                background: #333;
+                color: #fff;
+                padding: 10px 0;
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                
+                
+                display: grid;
+            }
+            /* Project Section */
+        #projects {
+            display: grid;
+            -moz-box-align: center;
+            gap: 20px;
+            margin-top: 40px;
+            justify-content: center;
+        }
+
+        .project {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center align the content */
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            max-height:250px;
+            
+        }
+
+        .project img {
+            width: 10%;
+            height: 120px;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+            
+        /* Skills Section */
+        #skills ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        #skills ul li {
+            margin: 10px;
+            padding: 10px;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            text-align: center;
+            font-weight: bold;
+        }
+    
+            nav ul {
+                list-style: none;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+            }
+    
+            nav ul li {
+                margin: 0 20px;
+            }
+    
+            nav ul li a {
+                color: #fff;
+                text-decoration: none;
+            }
+    
+            section {
+                
+                margin: 20px;
+                display: grid;
+            width:100vw;
+            height:80vh;
+            font-size: x-large;
+            }
+            /* Contact Section */
+            #contact {
+            padding-top: 200px;
+        
+        }
+
+        #contact form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #contact input, #contact textarea {
+
+            margin: 0px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 50%;
+            max-width: 250px;
+            justify-content: center;
+        }
+         #about {
+                height: auto;
+                padding: 20px;
+            }
+
+            
+            footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
+        
+
+        
+        html {
+            scroll-padding-top: 80px; 
+        }
+</style>
